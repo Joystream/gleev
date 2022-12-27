@@ -102,8 +102,8 @@ content:
     - id: '5'
       name: 'Tutorials'
       color: '#54A7F0'
-      iconUrl: 'https://eu-central-1.linodeobjects.com/atlas-assets/categories/gleev/icons/entertainment.svg'
-      coverImgUrl: 'https://eu-central-1.linodeobjects.com/atlas-assets/categories/gleev/images/entertainment.webp'
+      iconUrl: 'https://eu-central-1.linodeobjects.com/atlas-assets/categories/gleev/icons/tutorials.svg'
+      coverImgUrl: 'https://eu-central-1.linodeobjects.com/atlas-assets/categories/gleev/images/tutorials.webp'
       videoCategories: ['254437-2']
       defaultVideoCategory: '254437-2'
     - id: '6'
