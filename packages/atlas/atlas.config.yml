@@ -77,11 +77,11 @@ content:
 
   categories: # List of display categories to be used in the app. Those are local to the application and are related to metaprotocol categories via 'videoCategories' array.
     - id: '1' # Local category ID
-      name: 'Investing' # Display name of the category
+      name: 'Investing & Trading' # Display name of the category
       color: '#5A7AEE' # Color used in the UI for this category
       iconUrl: 'https://eu-central-1.linodeobjects.com/atlas-assets/categories/gleev/icons/investing.svg' # URL for category icon SVG
       coverImgUrl: 'https://eu-central-1.linodeobjects.com/atlas-assets/categories/gleev/images/investing.webp' # URL for category cover image
-      videoCategories: ['254433-2'] # List of metaprotocol category IDs that should be included in this display category
+      videoCategories: ['254433-2', '254450-2'] # [Investing, Trading] - List of metaprotocol category IDs that should be included in this display category
       defaultVideoCategory: '254433-2'
     - id: '2'
       name: 'Podcasts'
@@ -137,22 +137,8 @@ content:
       color: '#9455E8'
       iconUrl: 'https://eu-central-1.linodeobjects.com/atlas-assets/categories/gleev/icons/analysis.svg'
       coverImgUrl: 'https://eu-central-1.linodeobjects.com/atlas-assets/categories/gleev/images/analysis.webp'
-      videoCategories: ['254446-2']
+      videoCategories: ['254446-2', '254449-2'] # [Analysis, Predictions]
       defaultVideoCategory: '254446-2'
-    - id: '10'
-      name: 'Predictions'
-      color: '#4FE1F2'
-      iconUrl: 'https://eu-central-1.linodeobjects.com/atlas-assets/categories/gleev/icons/predictions.svg'
-      coverImgUrl: 'https://eu-central-1.linodeobjects.com/atlas-assets/categories/gleev/images/predictions.webp'
-      videoCategories: ['254449-2']
-      defaultVideoCategory: '254449-2'
-    - id: '11'
-      name: 'Trading'
-      color: '#6E5FEC'
-      iconUrl: 'https://eu-central-1.linodeobjects.com/atlas-assets/categories/gleev/icons/trading.svg'
-      coverImgUrl: 'https://eu-central-1.linodeobjects.com/atlas-assets/categories/gleev/images/trading.webp'
-      videoCategories: ['254450-2']
-      defaultVideoCategory: '254450-2'
   showAllContent: false # With this disabled, Atlas will display only content from display categories defined above. If you want your app to display all Joystream content, set this to true.
 
   languages: # List of languages to be used in the app. Those will be used when setting video's language, for adding subtitles, etc.
