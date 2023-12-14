@@ -3,6 +3,7 @@ import styled from '@emotion/styled'
 
 import { FlexBox } from '@/components/FlexBox'
 import { GridItem } from '@/components/LayoutGrid'
+import { Text } from '@/components/Text'
 import { TierBanner } from '@/components/_referrals/TierCard/TierCard.styles'
 import { cVar, media, sizes } from '@/styles'
 
@@ -13,7 +14,7 @@ const spin = keyframes`
   to {
     transform: translate(-50%, -50%) rotate(360deg);
   }
- `
+`
 
 const spinAnimation = css`
   animation: ${spin} 3s linear infinite;
@@ -38,8 +39,8 @@ export const StyledContainer = styled(GridItem)<{ mostEarned: boolean }>`
             content: '';
             display: block;
             background: conic-gradient(#000 0turn 0.5turn, #007dff 0.6turn, #afd5fc 0.8turn, #000 1turn);
-            width: calc(100% * 2);
-            padding-bottom: calc(100% * 2);
+            width: calc(100% * 2.5);
+            padding-bottom: calc(100% * 2.5);
             position: absolute;
             left: 50%;
             top: 50%;
@@ -68,6 +69,7 @@ export const StyledContainer = styled(GridItem)<{ mostEarned: boolean }>`
 `
 
 export const StyledTierBadge = styled(TierBanner)`
+  padding-bottom: 0;
   border-radius: calc(1.5 * ${cVar('radiusLarge')});
 `
 
@@ -83,6 +85,11 @@ export const StyledEarnedWrapper = styled(FlexBox)`
 
 export const StyledChannelInfo = styled(FlexBox)`
   padding: ${sizes(6)};
+`
+
+export const StyledHandle = styled(Text)`
+  max-height: 1.3em;
+  line-height: 1.3em;
 `
 
 export const StyledTiersWrapper = styled(FlexBox)`
