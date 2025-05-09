@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [5.6.1] - 2026-05-09
+
+### Fixed
+
+- YPP referrals pagination issue in Gleev studio: https://github.com/Joystream/atlas/issues/6502
+- Market transactions pagination issue in Gleev studio (CRT dashboard): https://github.com/Joystream/atlas/issues/6438
+
 ## [5.6.0] - 2024-12-23
 
 **IMPORTANT:** Depends on Orion release `4.2.0`.
